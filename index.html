@@ -1,47 +1,54 @@
-<DOCTYPE html>
 <html>
-     <head>
-        <title>TANGINA MO SAGAD</title>
-        <script type="text/javascript">
-         alert("BAT ANG CUTE YAN TULOY AKO'Y NALATE");
-         alert("BATI NA TAYO AH")
-         confirm("SORRY NA KUNG LATE")   
-        </script> 
-     <head>
-     
-      <style>
-           body{
-           background-image:url(https://media.tenor.com/2aSuT7p_a_UAAAAj/peachcat-cat.gif );
-           background-size: cover;
-           background-attachment: fixed;
-           {
-           .content{
-           background:https://media.tenor.com/2aSuT7p_a_UAAAAj/peachcat-cat.gif ;
-           width: 50px;
-           padding: 40px;
-           margin: 100px auto;
-           } 
-      
-      
-      
-      </style>
-     
+<head>
+<title>nyx.</title>
 
-	 <body>
-     <img src="https://media.tenor.com/Ja2KOt6GR-4AAAAM/black-heart-heart.gif">
-     <p style="color:black"> SANA MAINITINDIHAN MO PAGIGING LATE KO
-     
-     <img src="https://media.tenor.com/Ja2KOt6GR-4AAAAM/black-heart-heart.gif">
-     <p style="color:black"> ANG GANDA MO KAYA IDOL KITA EH
-     
-     <img src="https://media.tenor.com/Ja2KOt6GR-4AAAAM/black-heart-heart.gif">
-     <p style="color:black"> CUTE MO ANTE
-     
-     <img src="https://media.tenor.com/Ja2KOt6GR-4AAAAM/black-heart-heart.gif">
-     <p style="color:black"> SORRY LATE AKO BATI NA US
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("what should I call you?");
     
-	 </body>
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("Hi " + Name + ", always remember you're special."); 
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
 
+</head>
+<body>
+<h1> Hey! you look beautiful!</h1>
+<img src="https://c.tenor.com/sZPWbZj_QI8AAAAi/kakaotalk-emoticon.gif" height="200" />
+<h1 style="#">don't you think?</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YES " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" NO " onMouseOver="f()" />
+</div>
 
-
+</body>
 </html>
